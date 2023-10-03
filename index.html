@@ -31,15 +31,52 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <!-- NAVLINKS -->
-          <a href="#/about" class="nav-link">About</a>
+          <!-- <a href="#/about" class="nav-link">About</a> -->
         </div>
       </div>
     </nav>
   </header>
 
   <!-- SECTION -->
-  <main id="router-view">
+  <main id="router-view" class="container-fluid">
     <!-- PRIMARY VIEWPORT -->
+    <section class="row">
+      <div class="col-12 bg-black">
+        <p class="mb-0 text-center text-danger fs-4">ATTENTION! all sales final food does not include a container</p>
+      </div>
+      <div class="col-8">
+        <!-- SECTION snacks row -->
+        <section class="row" id="snackCatalog">
+          <!-- <div class="col-12 col-md-3 mx-3 ">
+            <div class="snackMargin border border-danger border-4 rounded-3">
+              <img class="snackImg"
+                src="https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                alt="Mac and Cheese">
+              <div class="snackTextBg">
+                <p class="fs-5 mb-0 ms-2 ">Mac and Cheese $4.50</p>
+                <button type="button" class="btn btn-danger ms-2 mb-1"
+                  onclick="app.VendingController.buySnack('Mac and Cheese')">Buy<i
+                    class="mdi mdi-cart-plus"></i></button>
+              </div>
+            </div>
+          </div> -->
+
+        </section>
+        <!-- !SECTION -->
+      </div>
+      <div class="col-4">
+        <!-- SECTION total money & +money row -->
+        <section class="row">
+          <div class="col-12">
+            <div class="text-end">
+              <button class="btn btn-primary mt-3" type="button" onclick="app.VendingController.addMoney()">Add
+                .25</button>
+            </div>
+            <p class="text-center fw-bold">Total Money: $<span id="total-money">20.00</span></p>
+          </div>
+        </section>
+      </div>
+    </section>
   </main>
 
   <!-- SECTION -->

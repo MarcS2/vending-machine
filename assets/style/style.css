@@ -1,1 +1,22 @@
 /* BASIC STYLES HERE */
+
+.snackImg {
+  height: 25vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.snackMargin {
+  margin-top: 5vh;
+
+}
+
+.inline {
+  display: inline;
+}
+
+
+.snackTextBg {
+  background-color: rgb(17, 170, 17);
+}
