@@ -29,9 +29,9 @@ export class VendingController {
     // !SECTION
     _drawSnacks()
   }
-  addMoney() {
+  addMoney(amount) {
     console.log('money');
-    snacksService.addMoney()
+    snacksService.addMoney(amount)
   }
 
   buySnack(snackName) {

@@ -69,7 +69,9 @@
         <section class="row">
           <div class="col-12">
             <div class="text-end">
-              <button class="btn btn-primary mt-3" type="button" onclick="app.VendingController.addMoney()">Add
+              <button class="btn btn-primary mt-3" type="button" onclick="app.VendingController.addMoney(5)">Add
+                $5.00</button>
+              <button class="btn btn-primary mt-3" type="button" onclick="app.VendingController.addMoney(.25)">Add
                 .25</button>
             </div>
             <p class="text-center fw-bold">Total Money: $<span id="total-money">20.00</span></p>

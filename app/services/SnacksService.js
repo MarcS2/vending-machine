@@ -12,8 +12,8 @@ class SnackService {
       Pop.toast('Low On Funds', 'error', 'top',)
     }
   }
-  addMoney() {
-    AppState.money += .25
+  addMoney(amount) {
+    AppState.money += amount
     console.log('AppState ', AppState.money);
   }
 
